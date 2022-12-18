@@ -901,12 +901,14 @@ header ul li a.active {
 .certificate-card {
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   border-radius: 1rem;
+  width: 80%;
   backdrop-filter: blur(0.5rem);
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   padding: 1.5rem;
   transition: all 0.3s ease;
+
 }
 
 .certificate-card:hover {
@@ -928,6 +930,8 @@ header ul li a.active {
 
 .certificate-detail-div {
   text-align: center;
+ 
+
 }
 
 .card-title {
@@ -959,9 +963,8 @@ header ul li a.active {
   border-radius: 4px;
   display: inline-flex;
   font-size: 0.75rem;
-  height: 2em;
   justify-content: center;
-  white-space: nowrap;
+  white-space: normal;
   line-height: 1.5;
   margin: 0 0.5rem 0.5rem 0;
   padding: 0 0.75em;
