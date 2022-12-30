@@ -66,9 +66,9 @@
       <div class="container">
         <div id="top" class="page-scroll"></div>
         <!-- Navbar -->
-        <header>
+        <header class="headerPadding">
           
-          <a href="#top" class="logo">Sneha </a>
+          <a href="#top" class="logo page">Sneha Pandey</a>
           <a href="#" class="enabledisable one fas fa-expand-arrows-alt" onclick="visibility()" id="arrow"></a>
           <a href="#" class="enabledisable two fas fa-compress-arrows-alt" style="display: none;" onclick="visibilityC()" id="arrowc"></a>
           <script type="text/javascript">
@@ -84,6 +84,11 @@
             let nodeList2 = document.querySelectorAll(".page");
             for (let i = 0; i < nodeList2.length; i++) {
              nodeList2[i].style.display = "none";
+             nodeList2[i].style.padding = "5px";
+            }
+            let nodeList3 = document.querySelectorAll(".headerPadding");
+            for (let i = 0; i < nodeList3.length; i++) {
+             nodeList3[i].style.padding = "0px";
             }
             }
             function visibilityC(){
@@ -513,27 +518,15 @@
           <div class="certificate-card">
             
             <div class="certificate-detail-div">
-              <h5 class="card-title">UPLOAD YOUR PHOTOS BELOW</h5>
-              <p class="card-subtitle">click the button below and a new page will open. Upload all your photos in any way you are comfortable. Do not worry about format, size etc. If you want you can submit in PDF format, or a .ZIP folder also<br><br></p>
+              <h5 class="card-title">UPLOAD YOUR ANSWER PDF BELOW</h5>
+              <p class="card-subtitle">click the button below and a new page will open. Upload all your photos in any way you are comfortable. Do not worry about format, size etc. If you want you can submit in PDF format, or a .ZIP folder also. Submit your Whatsapp Number, And make the payment by Scanning QRcode with ANY app and Submission is Complete!!<br><br></p>
             </div>
             <div class="certificate-card-footer" width="flex">
               <span class="certificate-tag">Normally, install a PDF file maker app, This will make your task easy!!</span>
               
             </div>
           </div>
-          <div class="certificate-card">
-            
-            <div class="certificate-detail-div">
-              <h5 class="card-title">UPLOAD YOUR Docs below</h5>
-              <p class="card-subtitle">
-              <b>
-                submit PDF with a key, Give UPI QR with that Key as Trx ID, then later... the key can be matched with the Trx key automatically in excel submission and verified as paid.
-            </div>
-            <div class="certificate-card-footer" width="flex">
-              <span class="certificate-tag">Normally, install a PDF file maker app, This will make your task easy!!</span>
-              
-            </div>
-          </div>
+          
         </div>
 
         <!-- 5th Section -->
