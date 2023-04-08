@@ -320,7 +320,7 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
     console.log("hello");
     document.getElementById("QRstatus").innerHTML="Generating UPI QRcode for the customer with contact of WhatsApp on: "+document.getElementById("out").value;
     document.getElementById("warning1").innerHTML="Please make sure the number entered is correct, Incase of an Error, TYPE THE CORRECT NUMBER AND GENERATE QR CODE AGAIN!!";
-    var link= "https://api.qrserver.com/v1/create-qr-code/?data=upi://pay?pa=9990854946@hdfcbank%26am=9.15%26tn="+document.getElementById("out").value+"&size=300x500";
+    var link= "https://api.qrserver.com/v1/create-qr-code/?data=upi://pay?pa=thetusharpandey@paytm%26am=9.15%26tn="+document.getElementById("out").value+"&size=300x500";
 document.getElementById("qrcode").setAttribute("src", link);
   }
 </script>
